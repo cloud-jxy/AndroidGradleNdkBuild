@@ -8,7 +8,7 @@
 尽管终端下ndk－build， OK；但却不能享受自动计算文件依赖。如：jni下有main.c common/hello.c等多个源文件，使用Android.mk只需指定main.c，其他的工具会自动帮我们处理——很爽吧；ndk-build就必须完全自己处理了。
 
 
-由于很不爽，这个问题就没就此结束。从githib上clone下官方sample（新版ndk里没有demo，自己git clone https://github.com/googlesamples/android-ndk）, demo里所有的项目都是使用gradle编译的。
+由于很不爽，这个问题就没就此结束。从github上clone下官方sample（新版ndk里没有demo，自己git clone https://github.com/googlesamples/android-ndk）, demo里所有的项目都是使用gradle编译的。
 我特意修改测试了下include路径及源文件自动推导，OK！！！这回爽了。
 
 
