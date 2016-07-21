@@ -6,5 +6,5 @@
 
 
 JNIEXPORT jstring JNICALL Java_com_xyt_hello_NdkJniUtils_getCLanguageString(JNIEnv *env, jobject obj) {
-  return (*env)->NewStringUTF(env,"I’m coming from C language!");
+  return (*env)->NewStringUTF(env,"I’m coming from C language.");
 }
